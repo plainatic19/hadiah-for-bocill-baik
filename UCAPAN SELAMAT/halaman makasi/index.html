@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="id">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ucapan makasi</title>
+	<style>
+		:root {
+			--ink: #f8fbff;
+			--muted: #d6e3ed;
+			--blue: #8ed8e5;
+		}
+
+		* { box-sizing: border-box; }
+
+		body {
+			min-height: 100vh;
+			margin: 0;
+			display: grid;
+			place-items: center;
+			padding: 24px;
+			overflow-x: hidden;
+			color: var(--ink);
+			font-family: Georgia, "Times New Roman", serif;
+			background: linear-gradient(135deg, #15191d, #56636d 48%, #496675);
+		}
+
+		main {
+			position: relative;
+			width: min(100%, 900px);
+			overflow: hidden;
+			padding: clamp(30px, 7vw, 70px) clamp(24px, 8vw, 80px);
+			text-align: center;
+			border: 1px solid rgba(255, 255, 255, .55);
+			border-radius: 24px;
+			background: linear-gradient(145deg, rgba(137, 146, 153, .92), rgba(25, 30, 35, .97));
+			box-shadow: 0 24px 70px rgba(0, 0, 0, .42);
+			animation: appear .7s ease both;
+		}
+
+		.kotak { width: min(170px, 52vw); margin: 0 auto 18px; }
+		h1 { margin: 0; color: #fff; font-size: clamp(2.3rem, 7vw, 4.6rem); line-height: .98; text-shadow: 0 3px 18px rgba(0, 0, 0, .35); }
+		.message { margin: 22px auto 0; max-width: 38rem; color: var(--muted); font-size: clamp(1rem, 2.5vw, 1.2rem); line-height: 1.7; text-align: left; }
+		.message p { margin: 0 0 20px; }
+		.message p:last-child { margin-bottom: 0; text-align: center; color: var(--ink); }
+		.photo-background { position: absolute; inset: 0; z-index: 0; pointer-events: none; }
+		.photo-background figure { position: absolute; width: clamp(82px, 13vw, 128px); margin: 0; overflow: hidden; aspect-ratio: 1; opacity: .65; }
+		.photo-background img { display: block; width: 100%; height: 100%; object-fit: contain; }
+		.photo-1 { left: 2%; top: 20%; transform: rotate(-12deg); }
+		.photo-2 { right: 2%; bottom: 3%; transform: rotate(11deg); }
+		.photo-3 { right: 18%; top: 3%; transform: rotate(8deg); }
+		.photo-4 { left: 2%; bottom: 3%; transform: rotate(-10deg); }
+		.photo-5 { left: 20%; bottom: 1%; transform: rotate(10deg); }
+		.photo-6 { right: 2%; top: 43%; transform: rotate(-8deg); }
+		.photo-7 { left: 2%; top: 3%; transform: rotate(6deg); }
+		.photo-8 { right: -4%; left: auto; top: 45%; width: 78px; transform: rotate(-12deg); }
+		.photo-9 { right: 2%; top: 3%; transform: rotate(10deg); }
+		.photo-10 { left: calc(clamp(82px, 13vw, 128px) + 1%); top: 3%; transform: rotate(-8deg); }
+		.des-1 { right: 8%; top: 11%; transform: rotate(7deg); }
+		.des-2 { left: 5%; top: 8%; transform: rotate(-8deg); }
+		.des-3 { right: calc(clamp(82px, 13vw, 128px) - 5%); bottom: 1%; width: clamp(75px, 10vw, 110px); transform: rotate(-7deg); }
+		main > :not(.photo-background) { position: relative; z-index: 1; }
+		.back { display: inline-block; margin-top: 30px; color: #fff; font: 600 .95rem "Trebuchet MS", sans-serif; text-decoration: none; border-bottom: 2px solid var(--blue); }
+		.back:hover { color: var(--blue); border-color: #fff; }
+
+		@media (max-width: 520px) {
+			main { padding-right: 30px; padding-left: 30px; }
+			.photo-background figure { width: 76px; opacity: .5; }
+			.photo-1 { left: -10px; top: 18%; }
+			.photo-2 { right: -10px; bottom: 2%; }
+			.photo-3 { right: 12%; top: 1%; }
+			.photo-4 { left: -8px; bottom: 2%; }
+			.photo-5 { left: 20%; bottom: 1%; }
+			.photo-6 { right: -10px; top: 42%; }
+			.photo-7 { left: -8px; top: 1%; }
+			.photo-8 { right: -6%; left: auto; top: 45%; width: 68px; }
+			.photo-9 { right: -8px; top: 1%; }
+			.photo-10 { left: calc(76px + 1%); top: 1%; }
+			.des-1 { right: 0; top: 11%; }
+			.des-2 { left: 1%; top: 8%; }
+			.des-3 { right: 72px; bottom: 1%; width: 68px; }
+		}
+
+		@keyframes appear { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: translateY(0); } }
+	</style>
+</head>
+<body>
+	<main>
+		<img class="kotak" src="kotak.3.png" alt="Ilustrasi ucapan terima kasih">
+		<h1>makasii yaa bocil</h1>
+		<div class="message">
+			<p>ucapan makasi sejutak, makasii uda jadi alasan kenapa banyak hari aku terasa lebih berarti yaa cil, makasi uda dateng ke hidup aku, makasi uda luangin waktu kamu yang SIBUK itu buat aku, makasi uda percaya aku, makasih juga karena kamu selalu berusaha, selalu bertahan, dan tetap jadi diri kamu sendiri. aku harap kamu tahu kalau keberadaan kamu itu berharga, dan kamu ga pernah sendirian selama masih ada aku di sini</p>
+			<p>makasii makasii makasiii sejutaak pokonyaa, sebenernya masi banyak yang kamu uda kasih ke aku, saking banyaknya aku gatau harus bilang makasi buat yang mana lagi, sebenernya makasih doang itu gacukup untuk semua hal baik yang kamu kasih ke aku jadi aku pengen ngebuat kamu bahagia,tetep disisi kamu, dan bisa jadi tempat buat kamu ngeluapin semua emosi kamu ke aku, lastt semoga aku masi dikasi kesempatan buat terus nemenin kamu di hari ulang tahun kamu di taun depan dan taun taun berikutnyaa yaa, dan satu hal yang akan selalu aku kasi tau ke kamu yaitu i'm always proud of u bocill</p>
+			<p><em>growing older, glowing softer cill<br>thank you for being you</em></p>
+		</div>
+		<div class="photo-background" aria-label="Foto-foto kenangan">
+			<figure class="photo-1"><img src="foto.1.png" alt="Foto kenangan 1"></figure>
+			<figure class="photo-2"><img src="foto.2.png" alt="Foto kenangan 2"></figure>
+			<figure class="photo-3"><img src="foto.3.png" alt="Foto kenangan 3"></figure>
+			<figure class="photo-4"><img src="foto.4.png" alt="Foto kenangan 4"></figure>
+			<figure class="photo-5"><img src="foto.5.png" alt="Foto kenangan 5"></figure>
+			<figure class="photo-6"><img src="foto.6.jpe" alt="Foto kenangan 6"></figure>
+			<figure class="photo-7"><img src="foto.7.png" alt="Foto kenangan 7"></figure>
+			<figure class="photo-8"><img src="foto.8.png" alt="Foto kenangan 8"></figure>
+			<figure class="photo-9"><img src="foto.9.png" alt="Foto kenangan 9"></figure>
+			<figure class="photo-10"><img src="foto.10.png" alt="Foto kenangan 10"></figure>
+			<figure class="des-1"><img src="des.1.png" alt="Dekorasi foto 1"></figure>
+			<figure class="des-2"><img src="des.2.png" alt="Dekorasi foto 2"></figure>
+			<figure class="des-3"><img src="des.3.png" alt="Dekorasi foto 3"></figure>
+		</div>
+		<a class="back" href="../index.html">go back</a>
+	</main>
+</body>
+</html>
